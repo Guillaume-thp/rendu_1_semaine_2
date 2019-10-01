@@ -5,7 +5,7 @@ puts "Voici la pyramide :"
 
 compteur=1
 
-while n <= 5
-  puts (" #" * nb_etage)
-  nb_etage += 1
+while nb_etage >= compteur
+    puts ("# " * compteur).rjust(10)
+    compteur +=1
 end
